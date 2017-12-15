@@ -161,7 +161,7 @@ def open_movies_page(movies):
     # Output the file
     output_file.write(main_page_head + rendered_content)
     output_file.close()
-
+    
     # open the output file in the browser (in a new tab, if possible)
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)
