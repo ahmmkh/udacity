@@ -32,7 +32,6 @@ YOUTUBE = [
        "https://www.youtube.com/watch?v=iojhqm0JTW4",
        "https://www.youtube.com/watch?v=7d_jQycdQGo"
 ]
-
 # this is  single line for loop used to fill a list with movie objects in movies
 MOVIES = [media.Movie(NAMES[i], YOUTUBE[i], POSTER[i]) for i in xrange(len(NAMES))]
 # we added fresh_tomatoes function in here to view the page
